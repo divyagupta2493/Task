@@ -1,0 +1,35 @@
+/* Basic styles for the page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.chocolate {
+    margin-bottom: 10px;
+}
+
+/* Styles for responsive design */
+@media screen and (max-width: 600px) {
+    section {
+        margin: 10px;
+        padding: 10px;
+    }
+}
